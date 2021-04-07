@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-    background-color: #1c002a;
+    background-color: #ede9ef;
     text-align: center;
     font-family: 'Gupter', serif;
     color: #e5c7e5;
@@ -46,36 +46,45 @@ a {
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
+.center {
+  margin: auto;
+  width: fit-content;
+  /* border: 3px solid green; */
+  padding: 50px;
+  padding-bottom: 500px;
+}
+
 .hex {
   float: left;
-  margin-right: -26px;
-  margin-bottom: -50px;
+  margin-right: -52px;
+  margin-left: -52px;
+  margin-bottom: -200px;
 }
 .hex .left {
   float: left;
   width: 0;
-  border-right: 30px solid #6C6;
-  border-top: 52px solid transparent;
-  border-bottom: 52px solid transparent;
+  border-right: 120px solid #3c073c;
+  border-top: 208px solid transparent;
+  border-bottom: 208px solid transparent;
 }
 .hex .middle {
   float: left;
-  width: 60px;
-  height: 104px;
-  background: #6C6;
+  width: 240px;
+  height: 416px;
+  background: #3c073c;
 }
 .hex .right {
   float: left;
   width: 0;
-  border-left: 30px solid #6C6;
-  border-top: 52px solid transparent;
-  border-bottom: 52px solid transparent;
+  border-left: 120px solid #3c073c;
+  border-top: 208px solid transparent;
+  border-bottom: 208px solid transparent;
 }
 .hex-row {
   clear: left;
 }
 .hex.odd {
-  margin-top: 53px;
+  margin-top: 212px;
 }
 
 @media (max-width: 960px) {
