@@ -1,12 +1,12 @@
 h1 {
-    color: #620762;
     font-size: 3em;
 }
 
 body {
-    background-color: rgb(243 196 255);
+    background-color: #1c002a;
     text-align: center;
     font-family: 'Gupter', serif;
+    color: #e5c7e5;
 }
 
 ul {
@@ -19,47 +19,80 @@ li {
     display: inline-block;
 }
 
-  a:hover {
-    color: #da5ac4;
-  }
+a:hover {
+  color: #f5edf5;
+}
 
-  a {
-    list-style-type: none;
-    text-decoration: none;
-  }
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #ffffff;
+}
 
-  .img_circle {
-    border-radius: 70%;
-  }
+.img_circle {
+  border-radius: 70%;
+}
 
-  .card {
-    background-color: rgb(221 163 163);
-    padding: 50px;
-    margin: 30px;
-    border-radius: 15px;
-    box-shadow: 5px, 5px, 10px
-  }
+.card {
+  border: 5px solid #e5c7e5;
+  padding: 50px;
+  margin: 30px;
+  border-radius: 15px;
+  display: flex;
+}
 
+.container {
+  width: 1000px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.hex {
+  float: left;
+  margin-right: -26px;
+  margin-bottom: -50px;
+}
+.hex .left {
+  float: left;
+  width: 0;
+  border-right: 30px solid #6C6;
+  border-top: 52px solid transparent;
+  border-bottom: 52px solid transparent;
+}
+.hex .middle {
+  float: left;
+  width: 60px;
+  height: 104px;
+  background: #6C6;
+}
+.hex .right {
+  float: left;
+  width: 0;
+  border-left: 30px solid #6C6;
+  border-top: 52px solid transparent;
+  border-bottom: 52px solid transparent;
+}
+.hex-row {
+  clear: left;
+}
+.hex.odd {
+  margin-top: 53px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 1000px;   /* This sets the width */
-    margin: 0 auto; /* This automatically sets left/right margins */
+    width: 700px;
   }
-
-  @media (max-width: 960px) {
-    /* For a screen < 960px, this CSS will be read */
-    .container {
-      width: 700px;
-    }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
   }
-  @media (max-width: 720px) {
-    /* For a screen < 720px, this CSS will be read */
-    .container {
-      width: 500px;
-    }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
   }
-  @media (max-width: 540px) {
-    /* For a screen < 540px, this CSS will be read */
-    .container {
-      width: 300px;
-    }
-  }
+}
