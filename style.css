@@ -1,9 +1,15 @@
 h1 {
     font-size: 3em;
+    margin-bottom: -5px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.3em;
 }
 
 body {
-    background-color: #ede9ef;
+    background-color: #5a4a61;
     text-align: center;
     font-family: 'Gupter', serif;
     color: #e5c7e5;
@@ -30,7 +36,25 @@ a {
 }
 
 .img_circle {
-  border-radius: 70%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #e5c7e5;
+}
+
+.img-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #e5c7e5;
+  margin: 10px;
+}
+
+.textbox {
+  margin-left: -30px;
+  margin-right: -50px;
+  margin-top: 0.5em;
+  display: flex;
 }
 
 .card {
@@ -42,8 +66,10 @@ a {
 }
 
 .container {
-  width: 1000px;   /* This sets the width */
+  width: 100%;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
+  /* overflow: scroll; */
+  min-width: 1400px;
 }
 
 .center {
@@ -66,6 +92,8 @@ a {
   border-right: 120px solid #3c073c;
   border-top: 208px solid transparent;
   border-bottom: 208px solid transparent;
+  z-index: -1;
+  position: relative;
 }
 .hex .middle {
   float: left;
@@ -79,6 +107,8 @@ a {
   border-left: 120px solid #3c073c;
   border-top: 208px solid transparent;
   border-bottom: 208px solid transparent;
+  z-index: -1;
+  position: relative;
 }
 .hex-row {
   clear: left;
