@@ -12,17 +12,7 @@ body {
     background-color: #5a4a61;
     text-align: center;
     font-family: 'Gupter', serif;
-    color: #e5c7e5;
-}
-
-ul {
-    text-align: center;
-    padding-inline-start: 0px;
-  }
-
-li {
-    font-size: 50px;
-    display: inline-block;
+    color: #e7dbe7;
 }
 
 a:hover {
@@ -32,7 +22,7 @@ a:hover {
 a {
   list-style-type: none;
   text-decoration: none;
-  color: #ffffff;
+  color: #66ffff;
 }
 
 .img_circle {
@@ -40,6 +30,7 @@ a {
   height: 100px;
   border-radius: 50%;
   border: 3px solid #e5c7e5;
+  padding: 5px;
 }
 
 .img-container {
@@ -57,6 +48,10 @@ a {
   display: flex;
 }
 
+.list {
+  text-align: left;
+}
+
 .card {
   border: 5px solid #e5c7e5;
   padding: 50px;
@@ -68,14 +63,12 @@ a {
 .container {
   width: 100%;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
-  /* overflow: scroll; */
   min-width: 1400px;
 }
 
 .center {
   margin: auto;
   width: fit-content;
-  /* border: 3px solid green; */
   padding: 50px;
   padding-bottom: 500px;
 }
