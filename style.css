@@ -11,7 +11,7 @@ h2 {
 body {
     background-color: #5a4a61;
     text-align: center;
-    font-family: 'Gupter', serif;
+    font-family: 'Gupter', sans-serif;
     color: #e7dbe7;
 }
 
@@ -31,14 +31,7 @@ a {
   border-radius: 50%;
   border: 3px solid #e5c7e5;
   padding: 5px;
-}
-
-.img-container {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 3px solid #e5c7e5;
-  margin: 10px;
+  margin: 5px;
 }
 
 .textbox {
